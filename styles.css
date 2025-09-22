@@ -1,0 +1,27 @@
+/* Nav bar */
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    background-color: #8d8530;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    font-family: 'Abril Fatface', sans-serif;
+  }
+  
+  /* Nav bar */
+  nav a{
+  padding: 1rem;
+  width: min-content;
+  display: block;
+  text-decoration: none;
+  color: #fdfacd;
+  
+  }
+  
+  /* Nav bar hover effect */
+  nav a:hover {
+    background-color: #8d8530;
+    color: #c4423a;
+    text-decoration: underline;
+  }
