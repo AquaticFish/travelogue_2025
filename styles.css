@@ -1,3 +1,47 @@
+/*Apartment */
+.apartment {
+    padding-top: 5%;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.img-apartment {
+    padding: 2%;
+    display: flex;
+}
+
+.text-apartment {
+    margin-right: 3%;
+}
+
+/*Sun world aka hand */
+.hand {
+    padding-top: 5%;
+    display: flex;
+    justify-content: right;
+
+}
+
+h1, h3{
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+p, li{
+    font-family: Georgia, serif;
+}
+
+.img-hand {
+    padding: 2%;
+    display: flex;
+}
+
+
+.text-hand {
+
+    margin-right: 3%;
+}
+
 /* Nav bar */
 nav ul {
     list-style: none;
@@ -7,21 +51,45 @@ nav ul {
     display: flex;
     justify-content: right;
     font-family: 'Abril Fatface', sans-serif;
-  }
-  
-  /* Nav bar */
-  nav a{
-  padding: 1rem;
-  width: min-content;
-  display: block;
-  text-decoration: none;
-  color: #fdfacd;
-  
-  }
-  
-  /* Nav bar hover effect */
-  nav a:hover {
+}
+
+/* Nav bar */
+nav a {
+    padding: 1rem;
+    width: min-content;
+    display: block;
+    text-decoration: none;
+    color: #fdfacd;
+
+}
+
+/* Nav bar hover effect */
+nav a:hover {
     background-color: #8d8530;
     color: #c4423a;
     text-decoration: underline;
-  }
+}
+
+
+.home {
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 30px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8d8530;
+    color: white;
+    text-align: center;
+}
