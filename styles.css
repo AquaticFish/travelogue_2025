@@ -25,6 +25,7 @@
 
 h1, h3{
     font-family: 'Abril Fatface', sans-serif;
+    color: #c4423a;
 }
 
 p, li{
@@ -75,7 +76,7 @@ nav a:hover {
     font-family: 'Abril Fatface', sans-serif;
     font-size: 30px;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 13%;
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -83,7 +84,7 @@ nav a:hover {
     justify-content: center;
 }
 
-.footer {
+footer {
     padding-top: 1%;
     padding-bottom: 1%;
     left: 0;
@@ -91,5 +92,17 @@ nav a:hover {
     width: 100%;
     background-color: #8d8530;
     color: white;
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    font-family: 'Abril Fatface', sans-serif;
 }
+
+footer a{
+    color:#c4423a;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
