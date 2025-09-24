@@ -1,18 +1,17 @@
-/*Apartment */
-.apartment {
-    padding-top: 5%;
+.apartment{
     display: flex;
     justify-content: right;
-    
+    padding-bottom: 5%;
 }
 
-.img-apartment {
-    padding: 2%;
-    display: flex;
-}
-
-.text-apartment {
+.text-apartment{
     margin-right: 3%;
+    text-indent: 2%;
+}
+
+
+.img-apartment{
+    padding: 2%;
 }
 
 /*Sun world aka hand */
@@ -20,27 +19,44 @@
     padding-top: 5%;
     display: flex;
     justify-content: right;
+}
+
+.text-hand{
+    margin-right: 3%;
+    text-indent: 2%;
+    
+}
+
+.img-hand {
+    padding: 2%;
 
 }
 
-h1, h3{
+.desert{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: right; 
+}
+.text-desert{
+    margin-right: 3%;
+    text-indent: 2%;
+    
+}
+
+.img-desert{
+    padding: 2%;
+}
+
+h1, h2, h3{
     font-family: 'Abril Fatface', sans-serif;
     color: #c4423a;
 }
 
 p, li{
     font-family: Georgia, serif;
-}
+    font-size: large;
 
-.img-hand {
-    padding: 2%;
-    display: flex;
-}
-
-
-.text-hand {
-
-    margin-right: 3%;
 }
 
 /* Nav bar */
@@ -106,3 +122,22 @@ body{
     background-color: antiquewhite;
 }
 
+
+header{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 5%;
+margin: 0;
+background-color: #c4423a;
+
+}
+
+header h1 {
+    color: #fdfacd;
+}
+
+header p {
+    font-size: x-large;
+}
